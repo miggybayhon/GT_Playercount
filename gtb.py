@@ -27,7 +27,7 @@ def get_player_count():
 
 # Function to send a message to the Discord webhook
 def send_to_discord(message):
-    webhook_url = "https://discord.com/api/webhooks/1260191230772379649/qE4zRpGwp9CmFoGZW2YZp-tAv5x4qIdCgRIfuEwN-4XWS6wJGGGmu4pH_pliqahF_7Ik"
+    webhook_url = "https://discord.com/api/webhooks/1260191230772379649/qE4zRpGwp9CmFoGZW2YZp-tAv5x4qIdCgRIfuEwN-4XWS6wJGGGmu4pH_pliqahF_7Ik" #You can replace your webhook here
     data = {
         "content": message
     }
